@@ -1,6 +1,7 @@
 require 'spec_helper'
 require 'json'
 require_relative '../../weather'
+require_relative '../../pivitol'
 require 'faraday'
 
 
@@ -16,13 +17,10 @@ describe Weather do
 
   end
   it 'should return the 7 day forcast for a city' do
-    response = Faraday.get("http://api.openweathermap.org/data/2.5/forecast/daily?q=London&mode=json&units=metric&cnt=7")
+    response = Faraday.get("http://api.openweathermap.org/data/2.5/forecast/daily?q=London&mode=json&units=imperial&cnt=7")
     json = response.body
     json_data = JSON.parse(json)
     @current_weather = Weather.new(json_data)
-    p @current_weather
     expect(@current_weather.city). to eq("London")
   end
-
-
 end
