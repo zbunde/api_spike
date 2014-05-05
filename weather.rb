@@ -5,4 +5,7 @@ class Weather
   def name
     @data["name"]
   end
+  def country
+    @data["city"]["name"]
+  end
 end
