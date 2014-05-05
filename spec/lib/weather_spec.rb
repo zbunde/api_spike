@@ -21,8 +21,8 @@ describe Weather do
     json_data = JSON.parse(json)
     @current_weather = Weather.new(json_data)
     p @current_weather
-    expect(@current_weather.country). to eq("London")
+    expect(@current_weather.city). to eq("London")
   end
-  
+
 
 end
