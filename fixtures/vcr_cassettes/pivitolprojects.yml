@@ -1,0 +1,663 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://www.pivotaltracker.com/services/v5/projects/1060092/stories
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.0
+      X-Trackertoken:
+      - 6275d3736a233fae32d09147ca6498d4
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Status:
+      - 200 OK
+      X-Tracker-Project-Version:
+      - '151'
+      X-Tracker-Pagination-Total:
+      - '22'
+      X-Tracker-Pagination-Offset:
+      - '0'
+      X-Tracker-Pagination-Limit:
+      - '100'
+      X-Tracker-Pagination-Returned:
+      - '22'
+      X-Ua-Compatible:
+      - IE=Edge,chrome=1
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 5c3b0f2998c62600e33e1113b69d6430
+      X-Runtime:
+      - '0.033936'
+      Date:
+      - Tue, 06 May 2014 17:26:48 GMT
+      X-Rack-Cache:
+      - miss
+      X-Powered-By:
+      - Phusion Passenger 4.0.41
+      Server:
+      - nginx/1.6.0 + Phusion Passenger 4.0.41
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Credentials:
+      - 'false'
+      Access-Control-Allow-Methods:
+      - GET, POST, PUT, DELETE, OPTIONS
+      Access-Control-Allow-Headers:
+      - X-TrackerToken,DNT,X-Mx-ReqToken,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,X-Tracker-Warn-Unless-Project-Version-Is
+    body:
+      encoding: UTF-8
+      string: |-
+        [
+          {
+            "kind": "story",
+            "id": 69484660,
+            "created_at": "2014-04-13T06:00:00Z",
+            "updated_at": "2014-04-14T19:46:57Z",
+            "accepted_at": "2014-04-14T19:46:57Z",
+            "story_type": "chore",
+            "name": "add tracker collaborators",
+            "current_state": "accepted",
+            "requested_by_id": 1256946,
+            "project_id": 1060092,
+            "url": "https://www.pivotaltracker.com/story/show/69484660",
+            "owner_ids": [
+              1256920,
+              1256946
+            ],
+            "labels": [
+              {
+                "id": 8207212,
+                "project_id": 1060092,
+                "kind": "label",
+                "name": "required",
+                "created_at": "2014-04-14T19:44:15Z",
+                "updated_at": "2014-04-14T19:44:15Z"
+              }
+            ],
+            "owned_by_id": 1256920
+          },
+          {
+            "kind": "story",
+            "id": 69484662,
+            "created_at": "2014-04-13T06:00:00Z",
+            "updated_at": "2014-04-14T20:04:14Z",
+            "accepted_at": "2014-04-14T20:04:13Z",
+            "story_type": "chore",
+            "name": "fork and clone project",
+            "description": "https://github.com/msgehard/sinatra-postgres-starter-app",
+            "current_state": "accepted",
+            "requested_by_id": 1256946,
+            "project_id": 1060092,
+            "url": "https://www.pivotaltracker.com/story/show/69484662",
+            "owner_ids": [
+              1256946
+            ],
+            "labels": [
+              {
+                "id": 8207212,
+                "project_id": 1060092,
+                "kind": "label",
+                "name": "required",
+                "created_at": "2014-04-14T19:44:15Z",
+                "updated_at": "2014-04-14T19:44:15Z"
+              }
+            ],
+            "owned_by_id": 1256946
+          },
+          {
+            "kind": "story",
+            "id": 69484664,
+            "created_at": "2014-04-13T06:00:00Z",
+            "updated_at": "2014-04-14T20:09:04Z",
+            "accepted_at": "2014-04-14T20:09:03Z",
+            "story_type": "chore",
+            "name": "setup heroku staging and production",
+            "current_state": "accepted",
+            "requested_by_id": 1256946,
+            "project_id": 1060092,
+            "url": "https://www.pivotaltracker.com/story/show/69484664",
+            "owner_ids": [
+              1256946
+            ],
+            "labels": [
+              {
+                "id": 8207212,
+                "project_id": 1060092,
+                "kind": "label",
+                "name": "required",
+                "created_at": "2014-04-14T19:44:15Z",
+                "updated_at": "2014-04-14T19:44:15Z"
+              }
+            ],
+            "owned_by_id": 1256946
+          },
+          {
+            "kind": "story",
+            "id": 69489706,
+            "created_at": "2014-04-14T20:41:31Z",
+            "updated_at": "2014-04-15T16:38:18Z",
+            "accepted_at": "2014-04-15T16:38:17Z",
+            "story_type": "chore",
+            "name": "Add tracker url to readme",
+            "current_state": "accepted",
+            "requested_by_id": 1234268,
+            "project_id": 1060092,
+            "url": "https://www.pivotaltracker.com/story/show/69489706",
+            "owner_ids": [
+              1256946
+            ],
+            "labels": [
+
+            ],
+            "owned_by_id": 1256946
+          },
+          {
+            "kind": "story",
+            "id": 69484676,
+            "created_at": "2014-04-13T06:00:00Z",
+            "updated_at": "2014-04-16T19:46:55Z",
+            "accepted_at": "2014-04-16T19:46:53Z",
+            "story_type": "release",
+            "name": "Basic registration / login done",
+            "current_state": "accepted",
+            "requested_by_id": 1256946,
+            "project_id": 1060092,
+            "url": "https://www.pivotaltracker.com/story/show/69484676",
+            "owner_ids": [
+
+            ],
+            "labels": [
+              {
+                "id": 8207212,
+                "project_id": 1060092,
+                "kind": "label",
+                "name": "required",
+                "created_at": "2014-04-14T19:44:15Z",
+                "updated_at": "2014-04-14T19:44:15Z"
+              }
+            ]
+          },
+          {
+            "kind": "story",
+            "id": 69484696,
+            "created_at": "2014-04-13T06:00:00Z",
+            "updated_at": "2014-04-16T20:43:53Z",
+            "accepted_at": "2014-04-16T20:43:53Z",
+            "story_type": "release",
+            "name": "Better validation",
+            "current_state": "accepted",
+            "requested_by_id": 1256946,
+            "project_id": 1060092,
+            "url": "https://www.pivotaltracker.com/story/show/69484696",
+            "owner_ids": [
+
+            ],
+            "labels": [
+              {
+                "id": 8207216,
+                "project_id": 1060092,
+                "kind": "label",
+                "name": "extra",
+                "created_at": "2014-04-14T19:44:17Z",
+                "updated_at": "2014-04-14T19:44:17Z"
+              }
+            ]
+          },
+          {
+            "kind": "story",
+            "id": 69484686,
+            "created_at": "2014-04-13T06:00:00Z",
+            "updated_at": "2014-04-16T20:45:56Z",
+            "accepted_at": "2014-04-16T20:45:55Z",
+            "story_type": "release",
+            "name": "Basic authorization complete",
+            "current_state": "accepted",
+            "requested_by_id": 1256946,
+            "project_id": 1060092,
+            "url": "https://www.pivotaltracker.com/story/show/69484686",
+            "owner_ids": [
+
+            ],
+            "labels": [
+              {
+                "id": 8207214,
+                "project_id": 1060092,
+                "kind": "label",
+                "name": "authorization",
+                "created_at": "2014-04-14T19:44:16Z",
+                "updated_at": "2014-04-14T19:44:16Z"
+              }
+            ]
+          },
+          {
+            "kind": "story",
+            "id": 69656374,
+            "created_at": "2014-04-16T20:44:17Z",
+            "updated_at": "2014-04-16T22:07:37Z",
+            "accepted_at": "2014-04-16T22:07:37Z",
+            "story_type": "release",
+            "name": "Administration ",
+            "current_state": "accepted",
+            "requested_by_id": 1256946,
+            "project_id": 1060092,
+            "url": "https://www.pivotaltracker.com/story/show/69656374",
+            "owner_ids": [
+
+            ],
+            "labels": [
+
+            ]
+          },
+          {
+            "kind": "story",
+            "id": 69484666,
+            "created_at": "2014-04-13T06:00:00Z",
+            "updated_at": "2014-04-17T20:57:59Z",
+            "accepted_at": "2014-04-17T20:58:05Z",
+            "estimate": 1,
+            "story_type": "feature",
+            "name": "User can register",
+            "description": "When a user goes to the home page\nAnd clicks \"Register\"\nAnd fills in \"Email\" with an email address\nAnd fills in \"Password\" with a password\nAnd clicks \"Register\"\nThen they should see a custom welcome message like \"Hello <email address>\"",
+            "current_state": "accepted",
+            "requested_by_id": 1256946,
+            "project_id": 1060092,
+            "url": "https://www.pivotaltracker.com/story/show/69484666",
+            "owner_ids": [
+              1256920,
+              1256946
+            ],
+            "labels": [
+              {
+                "id": 8207212,
+                "project_id": 1060092,
+                "kind": "label",
+                "name": "required",
+                "created_at": "2014-04-14T19:44:15Z",
+                "updated_at": "2014-04-14T19:44:15Z"
+              }
+            ],
+            "owned_by_id": 1256920
+          },
+          {
+            "kind": "story",
+            "id": 69484668,
+            "created_at": "2014-04-13T06:00:00Z",
+            "updated_at": "2014-04-17T20:58:03Z",
+            "accepted_at": "2014-04-17T20:58:11Z",
+            "estimate": 1,
+            "story_type": "feature",
+            "name": "User can logout",
+            "description": "When a user registers\nAnd then they click on \"Logout\"\nThen they should no longer see \"Welcome <email address>\"",
+            "current_state": "accepted",
+            "requested_by_id": 1256946,
+            "project_id": 1060092,
+            "url": "https://www.pivotaltracker.com/story/show/69484668",
+            "owner_ids": [
+              1256920,
+              1256946
+            ],
+            "labels": [
+              {
+                "id": 8207212,
+                "project_id": 1060092,
+                "kind": "label",
+                "name": "required",
+                "created_at": "2014-04-14T19:44:15Z",
+                "updated_at": "2014-04-14T19:44:15Z"
+              }
+            ],
+            "owned_by_id": 1256920
+          },
+          {
+            "kind": "story",
+            "id": 69484694,
+            "created_at": "2014-04-13T06:00:00Z",
+            "updated_at": "2014-04-17T21:03:05Z",
+            "accepted_at": "2014-04-17T21:03:12Z",
+            "estimate": 1,
+            "story_type": "feature",
+            "name": "User cannot register with an email address that already exists",
+            "current_state": "accepted",
+            "requested_by_id": 1256946,
+            "project_id": 1060092,
+            "url": "https://www.pivotaltracker.com/story/show/69484694",
+            "owner_ids": [
+              1256946
+            ],
+            "labels": [
+              {
+                "id": 8207216,
+                "project_id": 1060092,
+                "kind": "label",
+                "name": "extra",
+                "created_at": "2014-04-14T19:44:17Z",
+                "updated_at": "2014-04-14T19:44:17Z"
+              }
+            ],
+            "owned_by_id": 1256946
+          },
+          {
+            "kind": "story",
+            "id": 69652004,
+            "created_at": "2014-04-16T19:56:41Z",
+            "updated_at": "2014-04-17T21:03:31Z",
+            "accepted_at": "2014-04-17T21:03:39Z",
+            "estimate": 1,
+            "story_type": "feature",
+            "name": "User cannot register if email is blank",
+            "current_state": "accepted",
+            "requested_by_id": 1256946,
+            "project_id": 1060092,
+            "url": "https://www.pivotaltracker.com/story/show/69652004",
+            "owner_ids": [
+              1256946
+            ],
+            "labels": [
+              {
+                "id": 8207216,
+                "project_id": 1060092,
+                "kind": "label",
+                "name": "extra",
+                "created_at": "2014-04-14T19:44:17Z",
+                "updated_at": "2014-04-14T19:44:17Z"
+              }
+            ],
+            "owned_by_id": 1256946
+          },
+          {
+            "kind": "story",
+            "id": 69484692,
+            "created_at": "2014-04-13T06:00:00Z",
+            "updated_at": "2014-04-17T21:03:34Z",
+            "accepted_at": "2014-04-17T21:03:40Z",
+            "estimate": 1,
+            "story_type": "feature",
+            "name": "User cannot register if their password is blank",
+            "current_state": "accepted",
+            "requested_by_id": 1256946,
+            "project_id": 1060092,
+            "url": "https://www.pivotaltracker.com/story/show/69484692",
+            "owner_ids": [
+              1256946
+            ],
+            "labels": [
+              {
+                "id": 8207216,
+                "project_id": 1060092,
+                "kind": "label",
+                "name": "extra",
+                "created_at": "2014-04-14T19:44:17Z",
+                "updated_at": "2014-04-14T19:44:17Z"
+              }
+            ],
+            "owned_by_id": 1256946
+          },
+          {
+            "kind": "story",
+            "id": 69484690,
+            "created_at": "2014-04-13T06:00:00Z",
+            "updated_at": "2014-04-17T21:03:47Z",
+            "accepted_at": "2014-04-17T21:03:54Z",
+            "estimate": 1,
+            "story_type": "feature",
+            "name": "User cannot register if their password is less than 3 characters",
+            "current_state": "accepted",
+            "requested_by_id": 1256946,
+            "project_id": 1060092,
+            "url": "https://www.pivotaltracker.com/story/show/69484690",
+            "owner_ids": [
+              1256946
+            ],
+            "labels": [
+              {
+                "id": 8207216,
+                "project_id": 1060092,
+                "kind": "label",
+                "name": "extra",
+                "created_at": "2014-04-14T19:44:17Z",
+                "updated_at": "2014-04-14T19:44:17Z"
+              }
+            ],
+            "owned_by_id": 1256946
+          },
+          {
+            "kind": "story",
+            "id": 69484688,
+            "created_at": "2014-04-13T06:00:00Z",
+            "updated_at": "2014-04-17T21:04:02Z",
+            "accepted_at": "2014-04-17T21:04:08Z",
+            "estimate": 1,
+            "story_type": "feature",
+            "name": "User cannot register if their password doesn't match the confirmation",
+            "current_state": "accepted",
+            "requested_by_id": 1256946,
+            "project_id": 1060092,
+            "url": "https://www.pivotaltracker.com/story/show/69484688",
+            "owner_ids": [
+              1256946
+            ],
+            "labels": [
+              {
+                "id": 8207216,
+                "project_id": 1060092,
+                "kind": "label",
+                "name": "extra",
+                "created_at": "2014-04-14T19:44:17Z",
+                "updated_at": "2014-04-14T19:44:17Z"
+              }
+            ],
+            "owned_by_id": 1256946
+          },
+          {
+            "kind": "story",
+            "id": 69484674,
+            "created_at": "2014-04-13T06:00:00Z",
+            "updated_at": "2014-04-17T20:58:33Z",
+            "estimate": 1,
+            "story_type": "feature",
+            "name": "User cannot sign in with an invalid email / password",
+            "description": "Given a user who has registered and logged out\nWhen the user clicks \"Login\"\nAnd enters the email address they signed up with\nAnd enters an incorrect password\nThen the user should see an error message \"Invalid email or password\"\nAnd the user should not be logged in",
+            "current_state": "rejected",
+            "requested_by_id": 1256946,
+            "project_id": 1060092,
+            "url": "https://www.pivotaltracker.com/story/show/69484674",
+            "owner_ids": [
+              1256946
+            ],
+            "labels": [
+              {
+                "id": 8207212,
+                "project_id": 1060092,
+                "kind": "label",
+                "name": "required",
+                "created_at": "2014-04-14T19:44:15Z",
+                "updated_at": "2014-04-14T19:44:15Z"
+              }
+            ],
+            "owned_by_id": 1256946
+          },
+          {
+            "kind": "story",
+            "id": 69484670,
+            "created_at": "2014-04-13T06:00:00Z",
+            "updated_at": "2014-04-17T20:58:42Z",
+            "estimate": 1,
+            "story_type": "feature",
+            "name": "User can sign in with a valid email / password",
+            "description": "Given a user who has registered and logged out\nWhen the user clicks on \"Login\"\nAnd fills in \"Email\" with the email address they registered with\nAnd fills in \"Password\" with the password they registered with\nAnd clicks \"Login\"\nThen the user should see the custom welcome message \"Welcome <email address>\"",
+            "current_state": "rejected",
+            "requested_by_id": 1256946,
+            "project_id": 1060092,
+            "url": "https://www.pivotaltracker.com/story/show/69484670",
+            "owner_ids": [
+              1256946
+            ],
+            "labels": [
+              {
+                "id": 8207212,
+                "project_id": 1060092,
+                "kind": "label",
+                "name": "required",
+                "created_at": "2014-04-14T19:44:15Z",
+                "updated_at": "2014-04-14T19:44:15Z"
+              }
+            ],
+            "owned_by_id": 1256946
+          },
+          {
+            "kind": "story",
+            "id": 69484672,
+            "created_at": "2014-04-13T06:00:00Z",
+            "updated_at": "2014-04-17T20:59:37Z",
+            "estimate": 1,
+            "story_type": "feature",
+            "name": "User cannot login if their email address does not exist",
+            "current_state": "rejected",
+            "requested_by_id": 1256946,
+            "project_id": 1060092,
+            "url": "https://www.pivotaltracker.com/story/show/69484672",
+            "owner_ids": [
+              1256946
+            ],
+            "labels": [
+              {
+                "id": 8207212,
+                "project_id": 1060092,
+                "kind": "label",
+                "name": "required",
+                "created_at": "2014-04-14T19:44:15Z",
+                "updated_at": "2014-04-14T19:44:15Z"
+              }
+            ],
+            "owned_by_id": 1256946
+          },
+          {
+            "kind": "story",
+            "id": 69484678,
+            "created_at": "2014-04-14T06:00:00Z",
+            "updated_at": "2014-04-17T21:05:12Z",
+            "estimate": 1,
+            "story_type": "feature",
+            "name": "A user can be marked as an administrator",
+            "description": "The only way to do this for v1 will be to go into the database directly and update a user record.\n\nThere will be no user interface for this in the application.",
+            "current_state": "rejected",
+            "requested_by_id": 1256946,
+            "project_id": 1060092,
+            "url": "https://www.pivotaltracker.com/story/show/69484678",
+            "owner_ids": [
+              1256946
+            ],
+            "labels": [
+              {
+                "id": 8207214,
+                "project_id": 1060092,
+                "kind": "label",
+                "name": "authorization",
+                "created_at": "2014-04-14T19:44:16Z",
+                "updated_at": "2014-04-14T19:44:16Z"
+              }
+            ],
+            "owned_by_id": 1256946
+          },
+          {
+            "kind": "story",
+            "id": 69484682,
+            "created_at": "2014-04-13T06:00:00Z",
+            "updated_at": "2014-04-17T21:05:21Z",
+            "estimate": 1,
+            "story_type": "feature",
+            "name": "Administrator users can see a list of all other users",
+            "description": "Given a logged in user\nWhen the user clicks on \"View all users\" (only visible for administrator users)\nThen they should see a list of all users, including their ids and email addresses",
+            "current_state": "rejected",
+            "requested_by_id": 1256946,
+            "project_id": 1060092,
+            "url": "https://www.pivotaltracker.com/story/show/69484682",
+            "owner_ids": [
+              1256946
+            ],
+            "labels": [
+              {
+                "id": 8207214,
+                "project_id": 1060092,
+                "kind": "label",
+                "name": "authorization",
+                "created_at": "2014-04-14T19:44:16Z",
+                "updated_at": "2014-04-14T19:44:16Z"
+              }
+            ],
+            "owned_by_id": 1256946
+          },
+          {
+            "kind": "story",
+            "id": 69484684,
+            "created_at": "2014-04-13T06:00:00Z",
+            "updated_at": "2014-04-17T21:05:36Z",
+            "estimate": 1,
+            "story_type": "feature",
+            "name": "Non administrator users are not allowed to see users list",
+            "description": "Given a non-admin user\nThe user should not see the \"VIew all users\" link\nAnd when the user visits the users url directly\nThen they should be redirected to a page that tells them they do not have access.",
+            "current_state": "rejected",
+            "requested_by_id": 1256946,
+            "project_id": 1060092,
+            "url": "https://www.pivotaltracker.com/story/show/69484684",
+            "owner_ids": [
+              1256946
+            ],
+            "labels": [
+              {
+                "id": 8207214,
+                "project_id": 1060092,
+                "kind": "label",
+                "name": "authorization",
+                "created_at": "2014-04-14T19:44:16Z",
+                "updated_at": "2014-04-14T19:44:16Z"
+              }
+            ],
+            "owned_by_id": 1256946
+          },
+          {
+            "kind": "story",
+            "id": 69711360,
+            "created_at": "2014-04-17T16:07:54Z",
+            "updated_at": "2014-04-17T21:04:46Z",
+            "estimate": 1,
+            "story_type": "feature",
+            "name": "Email must be valid email address",
+            "current_state": "rejected",
+            "requested_by_id": 1256946,
+            "project_id": 1060092,
+            "url": "https://www.pivotaltracker.com/story/show/69711360",
+            "owner_ids": [
+
+            ],
+            "labels": [
+              {
+                "id": 8207216,
+                "project_id": 1060092,
+                "kind": "label",
+                "name": "extra",
+                "created_at": "2014-04-14T19:44:17Z",
+                "updated_at": "2014-04-14T19:44:17Z"
+              }
+            ]
+          }
+        ]
+    http_version: 
+  recorded_at: Tue, 06 May 2014 17:28:01 GMT
+recorded_with: VCR 2.9.0

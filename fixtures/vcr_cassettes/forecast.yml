@@ -1,0 +1,43 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.openweathermap.org/data/2.5/forecast/daily?cnt=7&mode=json&q=London&units=imperial
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Tue, 06 May 2014 17:27:12 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Allow-Methods:
+      - GET, POST
+    body:
+      encoding: UTF-8
+      string: |
+        {"cod":"200","message":4.7538,"city":{"id":6058560,"name":"London","coord":{"lon":-81.23304,"lat":42.983391},"country":"CA","population":0,"sys":{"population":0}},"cnt":7,"list":[{"dt":1399395600,"temp":{"day":68.85,"min":52.34,"max":68.85,"night":52.34,"eve":63.41,"morn":54.32},"pressure":994.47,"humidity":84,"weather":[{"id":801,"main":"Clouds","description":"few clouds","icon":"02d"}],"speed":5.42,"deg":36,"clouds":20},{"dt":1399482000,"temp":{"day":61.11,"min":50.36,"max":62.69,"night":50.36,"eve":58.78,"morn":50.63},"pressure":994.98,"humidity":63,"weather":[{"id":501,"main":"Rain","description":"moderate rain","icon":"10d"}],"speed":14.49,"deg":125,"clouds":92,"rain":8},{"dt":1399568400,"temp":{"day":66.13,"min":51.53,"max":72.68,"night":58.28,"eve":67.82,"morn":51.53},"pressure":993.93,"humidity":99,"weather":[{"id":500,"main":"Rain","description":"light rain","icon":"10d"}],"speed":8.7,"deg":132,"clouds":48,"rain":2},{"dt":1399654800,"temp":{"day":69.58,"min":61.3,"max":69.58,"night":61.3,"eve":68.95,"morn":62.13},"pressure":993.35,"humidity":0,"weather":[{"id":500,"main":"Rain","description":"light rain","icon":"10d"}],"speed":22.55,"deg":204,"clouds":95,"rain":0.89},{"dt":1399741200,"temp":{"day":62.76,"min":45.79,"max":62.76,"night":45.79,"eve":57.43,"morn":58.01},"pressure":999.13,"humidity":0,"weather":[{"id":500,"main":"Rain","description":"light rain","icon":"10d"}],"speed":14.9,"deg":261,"clouds":0},{"dt":1399827600,"temp":{"day":53.92,"min":47.14,"max":53.92,"night":47.14,"eve":49.93,"morn":48.47},"pressure":998.67,"humidity":0,"weather":[{"id":502,"main":"Rain","description":"heavy intensity rain","icon":"10d"}],"speed":16.26,"deg":71,"clouds":98,"rain":15.44},{"dt":1399914000,"temp":{"day":51.8,"min":47.23,"max":51.8,"night":47.86,"eve":49.08,"morn":47.23},"pressure":981.01,"humidity":0,"weather":[{"id":502,"main":"Rain","description":"heavy intensity rain","icon":"10d"}],"speed":13.48,"deg":16,"clouds":100,"rain":26.6}]}
+    http_version: 
+  recorded_at: Tue, 06 May 2014 17:27:12 GMT
+recorded_with: VCR 2.9.0

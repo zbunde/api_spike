@@ -1,0 +1,43 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.openweathermap.org/data/2.5/weather?q=London,uk
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Tue, 06 May 2014 17:26:55 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Allow-Methods:
+      - GET, POST
+    body:
+      encoding: UTF-8
+      string: |
+        {"coord":{"lon":-0.13,"lat":51.51},"sys":{"message":0.0221,"country":"GB","sunrise":1399350122,"sunset":1399404728},"weather":[{"id":500,"main":"Rain","description":"light rain","icon":"10d"}],"base":"cmc stations","main":{"temp":285.111,"temp_min":285.111,"temp_max":285.111,"pressure":1011.97,"sea_level":1021.99,"grnd_level":1011.97,"humidity":85},"wind":{"speed":6.81,"deg":228.003},"rain":{"3h":0.75},"clouds":{"all":92},"dt":1399395486,"id":2643743,"name":"London","cod":200}
+    http_version: 
+  recorded_at: Tue, 06 May 2014 17:26:55 GMT
+recorded_with: VCR 2.9.0
